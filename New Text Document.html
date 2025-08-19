@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RDSEIKOS Watches</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+  header { background:#222; color:#fff; padding:20px; text-align:center; }
+  h1 { margin:0; }
+  .container { max-width:1200px; margin:20px auto; padding:10px; }
+  .shop { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+  .product { background:#fff; padding:15px; border-radius:8px; text-align:center; box-shadow:0 2px 5px rgba(0,0,0,0.2); }
+  .product img { width:100%; max-height:200px; object-fit:cover; border-radius:5px; }
+  .product h2 { font-size:18px; margin:10px 0 5px; }
+  .product p { margin:5px 0; font-weight:bold; }
+  .btn { background:#222; color:#fff; padding:10px 15px; border:none; border-radius:5px; cursor:pointer; text-decoration:none; display:block; margin:5px 0; }
+  .btn:hover { background:#555; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>RDSEIKOS Watches</h1>
+  <p>Luxury Watches for Every Style</p>
+</header>
+
+<div class="container">
+  <h2>Our Collection</h2>
+  <div class="shop">
+    <!-- 25 Product Slots -->
+    <!-- Example Product -->
+    <div class="product">
+      <img src="https://via.placeholder.com/200x200?text=Watch+1" alt="Watch 1">
+      <h2>RDSEIKOS Model 1</h2>
+      <p>$199</p>
+      <a href="https://www.paypal.com/paypalme/YOURPAYPAL" class="btn" target="_blank">Buy with PayPal</a>
+      <a href="#" class="btn">Buy with Stripe</a>
+    </div>
+    <!-- Copy the above <div class="product"> 24 more times for 25 watches -->
+  </div>
+</div>
+
+</body>
+</html>
